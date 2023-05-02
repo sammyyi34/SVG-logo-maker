@@ -1,5 +1,6 @@
 const {Circle} = require('../lib/circle');
 
+// tests to make sure the new circle class has been created correctly
 describe('Circle', () => {
   it('should render the correct color, text and text color', () => {
     const color = "red";

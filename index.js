@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateSvg = require('./util/generateSvg');
 
+// question prompt that user must answer to generate svg logo
 const questions = [
   {
     type: 'list',
@@ -30,6 +31,7 @@ const questions = [
   }
 ];
 
+// this function creates a .svg file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, function(err) {
     console.log(fileName);
@@ -42,6 +44,7 @@ function writeToFile(fileName, data) {
   });
 }
 
+// this function initializes the app
 function init() {
   inquirer.prompt(questions)
   .then(function(data) {

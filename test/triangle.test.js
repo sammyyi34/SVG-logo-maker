@@ -1,5 +1,6 @@
 const {Triangle} = require('../lib/triangle');
 
+// tests to make sure the new triangle class has been created correctly
 describe('Triangle', () => {
   it('should render the correct color, text and text color', () => {
     const color = 'green';

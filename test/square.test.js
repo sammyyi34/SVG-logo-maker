@@ -1,5 +1,6 @@
 const {Square} = require('../lib/square');
 
+// tests to make sure the new square class has been created correctly
 describe('Square', () => {
   it('should render the correct color, text and text color', () => {
     const color = 'blue';
