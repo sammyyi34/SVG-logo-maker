@@ -30,3 +30,25 @@ const questions = [
   }
 ];
 
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, function(err) {
+    console.log(fileName);
+    console.log(data);
+    if (err) {
+      return console.log(err);
+    } else {
+      console.log('success')
+    }
+  });
+}
+
+function init() {
+  inquirer.prompt(questions)
+  .then(function(data) {
+    writeToFile("logo.svg", generateSvg(data));
+    console.log(data);
+  });
+}
+
+// Function call to initialize app
+init();

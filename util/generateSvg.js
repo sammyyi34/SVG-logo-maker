@@ -14,4 +14,4 @@ function generateSvg(data) {
   return shape.render();
 }
 
-module.exports = generateLogo;
+module.exports = generateSvg;
