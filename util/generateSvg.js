@@ -1,6 +1,6 @@
-const Circle = require('../lib/circle');
-const Triangle = require('../lib/triangle');
-const Square = require('../lib/square');
+const {Circle} = require('../lib/circle');
+const {Triangle} = require('../lib/triangle');
+const {Square} = require('../lib/square');
 
 function generateSvg(data) {
   let shape = undefined;
