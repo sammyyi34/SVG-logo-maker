@@ -1,4 +1,4 @@
-const {Square} = require('../lib/square');
+const Square = require('../lib/square');
 
 // tests to make sure the new square class has been created correctly
 describe('Square', () => {

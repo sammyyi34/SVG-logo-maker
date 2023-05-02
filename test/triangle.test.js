@@ -1,4 +1,4 @@
-const {Triangle} = require('../lib/triangle');
+const Triangle = require('../lib/triangle');
 
 // tests to make sure the new triangle class has been created correctly
 describe('Triangle', () => {
