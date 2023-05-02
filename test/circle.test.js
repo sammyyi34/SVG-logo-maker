@@ -2,7 +2,7 @@ const Circle = require('../lib/circle');
 
 describe('Circle', () => {
   it('should render the correct color, text and text color', () => {
-    const shape = new Circle(color, text, textColor);
+    const shape = new Circle();
     const color = 'red';
     const text = 'LUL';
     const textColor = 'black';
