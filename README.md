@@ -21,8 +21,8 @@ Contributors:
 To run tests, run the following command: undefined
 # Questions
 If you have any questions about the repo, open an issue or contact me directly at sammyhyi@gmail.com.
-#Screenshots
+# Screenshots
 ![Screenshot 2023-05-02 164403](https://user-images.githubusercontent.com/128865904/235781663-8218e038-dc87-4820-8767-585aed474ddc.png)
 ![Screenshot 2023-05-02 164215](https://user-images.githubusercontent.com/128865904/235781674-ed8d2065-e59a-47b7-b79a-40a72e0a672f.png)
-#Video demo link
+# Video demo link
 https://drive.google.com/file/d/1-VXVw3ruALrQpQMzAUpVyZLoj65d0LkI/view?usp=share_link
